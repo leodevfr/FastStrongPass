@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "FastStrongPass",
+    "version": "1.0",
+    "description": "Extension qui génère des mots de passe aléatoires.",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "strongpass.png",
+      "default_title": "Générateur de mots de passe aléatoire 100% sécurisé"
+    },
+    "permissions": ["activeTab"]
+  }  

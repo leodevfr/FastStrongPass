@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+	<title>FastStrongPass</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>FastStrongPass - Générateur de mot de passe aléatoire.</h1>
+		<label>Longueur du mot de passe :</label>
+		<input type="radio" name="length" value="5">5
+		 <input type="radio" name="length" value="10" checked>10
+		<input type="radio" name="length" value="15">15
+		<br><br>
+		<button id="generate-button">Générer</button>
+		<p id="password"></p>
+		<h2>Mots de passe générés :</h2>
+		<ul id="password-list"></ul>
+		<script src="script.js"></script>
+	</div>
+</body>
+</html>
